@@ -1,0 +1,41 @@
+Prompt to understand what is prompt engineering
+Explain about prompt engineering in 4-8 sentences and few points on its application and exactly 4 lines of example
+
+example of zero shot promting:
+"Classify the sentiment of the following customer review and extract the core issue. Format your response exactly like this:
+Sentiment: [Positive/Negative/Neutral]
+Issue: [1-sentence summary]"
+
+example on one shot prompting:
+"Classify the sentiment of the customer review and extract the core issue. Follow the exact format shown in the example below.
+
+Example Input: "The delivery took three weeks to arrive, and the box was completely crushed."
+Example Output:
+Sentiment: Negative
+Issue: Delayed shipping and damaged packaging.
+
+example on few shot prompting:
+"Classify the sentiment of the customer review and extract the core issue. Follow the exact format shown in the examples below.
+
+Example 1:
+Input: "The delivery took three weeks to arrive, and the box was completely crushed."
+Output:
+Sentiment: Negative
+Issue: Delayed shipping and damaged packaging.
+
+Example 2:
+Input: "It works okay, but the customer support line was busy for an hour."
+Output:
+Sentiment: Neutral
+Issue: Long wait times for customer support.
+
+Example 3:
+Input: "Absolutely love this blender! Smoothies are perfect and it cleans up in seconds."
+Output:
+Sentiment: Positive
+Issue: None (Satisfied with performance and cleanup)."
+
+
+
+
+
